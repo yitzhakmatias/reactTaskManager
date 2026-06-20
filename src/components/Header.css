@@ -1,0 +1,16 @@
+header {
+  background-color: #6b7280;
+  color: #ffffff;
+  padding: 24px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 6px;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.85;
+}

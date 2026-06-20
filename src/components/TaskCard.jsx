@@ -1,9 +1,8 @@
-// Creamos una función llamada TaskCard.
-// En React, una función que devuelve JSX puede ser usada como componente.
+import "./TaskCard.css";
+
 function TaskCard(props) {
   return (
-    // Este div contiene la estructura visual de una tarea.
-    <div>
+    <div className="task-card">
       <p>{props.text}</p>
     </div>
   );
