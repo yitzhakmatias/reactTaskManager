@@ -1,15 +1,21 @@
 import Header from "./components/Header";
-import TaskCard from "./components/TaskCard";
+import TaskList from "./components/TaskList";
 import "./App.css";
+
+const initialTasks = [
+  { id: 1, text: "Estudiar React" },
+  { id: 2, text: "Practicar componentes" },
+  { id: 3, text: "Entender props" },
+  { id: 4, text: "Aprender sobre el estado (useState)" },
+  { id: 5, text: "Crear un formulario en React" },
+];
 
 function App() {
   return (
     <div>
       <Header />
       <div className="app-container">
-        <TaskCard text="Estudiar React" />
-        <TaskCard text="Practicar componentes" />
-        <TaskCard text="Entender props" />
+        <TaskList tasks={initialTasks} />
       </div>
     </div>
   );
